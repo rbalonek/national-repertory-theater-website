@@ -1,0 +1,52 @@
+.header-container {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+.nrt-title-container {
+  width: 100%;
+  text-align: center;
+}
+
+.nrt-title {
+  color: black;
+  /* font-family: "Cormorant SC", serif; */
+  /* font-family: 'Codystar', cursive; */
+  font-family: 'Josefin Slab', serif;
+}
+.nav-holder {
+}
+
+@media (max-height: 816px) {
+  .nav-holder {
+    position: relative;
+    /* top: -15px; */
+  }
+}
+
+@media (max-width: 677px) {
+  .nrt-title {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-height: 651px) {
+  .nav-holder {
+    position: relative;
+    top: 20px;
+  }
+}
+
+@media (max-width: 481px) {
+  .nrt-title {
+    font-size: 1.5em;
+    position: relative;
+    /* top: -14px; */
+  }
+}
+@media (max-height: 350px) {
+  .nav-holder {
+    position: relative;
+    top: 10px;
+  }
+}
