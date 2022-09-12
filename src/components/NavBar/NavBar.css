@@ -1,0 +1,14 @@
+.nav__container{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.nav__productions-dropdown-open{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+.nav__productions-dropdown-closed{
+  display: none;
+}
