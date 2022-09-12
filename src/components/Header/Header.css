@@ -1,7 +1,11 @@
 .header-container {
-  position: sticky;
-  top: 0px;
-  background-color: white;
+  /* position: sticky;
+  top: 0px; */
+  /* background-color: white; */
+  /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%); */
+  /* border-radius: 2%; */
+  /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply; */
 }
 .nrt-title-container {
   width: 100%;
@@ -10,6 +14,10 @@
 
 .nrt-title {
   color: black;
+  /* background-color: white; */
+  
+  
+  padding: 10px;
   /* font-family: "Cormorant SC", serif; */
   /* font-family: 'Codystar', cursive; */
   font-family: 'Josefin Slab', serif;

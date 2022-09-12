@@ -1,0 +1,17 @@
+.outreach-container {
+  /* min-height: 100vh; */
+  /* margin-bottom: 100px; */
+  height: 100vh;
+}
+.kids-opera-banner-img-container {
+  padding-top: 2%;
+  width: 100%;
+  text-align: center;
+}
+.kids-opera-banner-img {
+  max-width: 80vw;
+}
+.outreach-text-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}

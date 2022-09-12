@@ -1,0 +1,21 @@
+.popup-text-container {
+  position: absolute;
+  top: 42vh;
+  text-align: center;
+  left: 44%;
+  /* width: 100%; */
+  /* min-height: 120vh; */
+}
+.popup-banner {
+  max-width: 100%;
+  /* min-width: 100vw; */
+  /* position: absolute;
+  top: 17%;
+  z-index: -1; */
+}
+.popup-opera-text-container {
+  /* position: absolute;
+  bottom: -40%; */
+  /* height: 100px; */
+  /* padding: 10%; */
+}

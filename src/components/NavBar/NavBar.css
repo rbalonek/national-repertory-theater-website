@@ -18,6 +18,9 @@ a:active {
   display: flex;
   width: 100%;
   justify-content: center;
+  /* background-color: white; */
+ 
+  border-radius: 52%;
 }
 .nav__tab-holder{
   display: flex;
@@ -39,7 +42,7 @@ a:active {
   position: absolute;
   display: flex;
   flex-direction: column;
-  /* background-color: red; */
+  background-color: white;
 }
 .nav__productions-dropdown-open a:link{
   text-decoration:none;

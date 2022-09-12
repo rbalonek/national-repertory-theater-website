@@ -1,0 +1,19 @@
+.about-container {
+  /* height: 1000px; */
+  text-align: center;
+}
+.about-text-container {
+  /* width: 100vw; */
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.about-text {
+  font-size: 1.5em;
+  font-family: "Rubik";
+  font-weight: 300;
+}
+.mailer-about-container {
+  width: 100%;
+  text-align: -webkit-center;
+}

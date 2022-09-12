@@ -1,0 +1,12 @@
+.home-container {
+}
+.background-img-home {
+  position: absolute;
+   top: 0;
+   left: 0;
+  /* top: -2vh; */
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+  opacity: 80%;
+}
