@@ -1,7 +1,23 @@
 .nav__container{
   display: flex;
   width: 100%;
+  justify-content: center;
+}
+.nav__tab-holder{
+  display: flex;
   justify-content: space-around;
+  width: 50%;
+}
+.nav__container p{
+  padding: 10px
+}
+.nav__container p:hover{
+  border: 1px solid black;
+  padding: 9px;
+  color:white;
+  background-color: brown;
+  cursor: pointer;
+  box-shadow: 12px 12px 80px rgb(0 0 0 / 10%);
 }
 .nav__productions-dropdown-open{
   position: absolute;
@@ -11,4 +27,16 @@
 }
 .nav__productions-dropdown-closed{
   display: none;
+}
+.nav-chosen{
+  color: red
+
+}
+.nav-unchosen{
+  color: black;
+}
+.test:hover{
+  border: 1px solid black;
+  padding: 4px
+
 }
