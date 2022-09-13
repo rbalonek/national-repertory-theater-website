@@ -1,11 +1,14 @@
-import React from "react";
+import React from 'react';
+import MailerSignupForm from '../../components/Forms/MailerSignupForm/MailerSignupForm';
 import "./Home.css";
 
 
-export default function Home(props) {
+export default function Home() {
+ 
+
   return (
     <div className="home-container">
-    
+    <MailerSignupForm />
     </div>
     );
   }
