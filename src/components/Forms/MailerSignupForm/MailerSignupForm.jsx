@@ -21,13 +21,9 @@ export default function MailerSignupForm() {
 
   return (
     <div className='mailer-signup__container'>
-    <h3>Newsletter Signup</h3>  
     <form className='mailer-signup__form' ref={form} onSubmit={sendEmail}>
-    <label>Name</label>
-    <input type="text" name="user_name" required/>
-    <label>Email</label>
-    <input type="email" name="user_email" required/>
-    <input className='mailer-signup__submit-btn' type="submit" value="Send" />
+    <input style={{width:'200px'}} type="email" placeholder="Email" name="user_email" required/>
+    <input className='mailer-signup__submit-btn' type="submit" value="Sign Up For Our Newsletter" />
   </form>
     </div>
   )
