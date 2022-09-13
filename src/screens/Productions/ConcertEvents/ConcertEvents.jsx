@@ -4,6 +4,11 @@ import "./ConcertEvents.css"
 export default function ConcertEvents() {
   return (
     <div>
+    <img
+    className="conert__banner-img"
+    src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1663027033/National%20Repertory%20Theater/Banners/Screen_Shot_2022-09-12_at_4.54.48_PM_oycx0h.png"
+    alt="blah"
+  />
     <p>
         The National Repertory Theater has many concerts and events throughout
         the year.

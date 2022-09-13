@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Outreach.css"
+import DonateButton from "../../../components/Buttons/DonateButton/DonateButton"
 
 import OperaForTheAges from "../../../assets/projects/OperaForTheAges.png"
 
@@ -26,7 +27,7 @@ export default function Outreach() {
           To donate directly to the advancement of "Opera for the Ages" click
           the link below:
         </p>
-        <h1>DONATE BUTTON</h1>
+        <DonateButton />
 
         <br />
         <p className="global-text">

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Support.css"
+import DonateButton from "../../components/Buttons/DonateButton/DonateButton"
 
 export default function Support() {
   return (
@@ -11,7 +12,7 @@ export default function Support() {
         every bit of support to the local music community helps keep our goal.
       </p>
       <h2>Donations</h2>
-      <h1>DOnate BUTTON</h1>
+      <DonateButton />
       <p>
         NRT is dedicated to the support of local musicians, artists, and
         businesses. That being said, we like to keep all of our donations in

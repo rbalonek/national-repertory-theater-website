@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: URL("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1613246673/National%20Repertory%20Theater/Background%20Image/OperaHouse_jhflgj.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: 120%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* .background-img-home {
+  position: absolute;
+   top: 0;
+   left: 0;
+  height: 100%;
+  width: 100%;
+} */

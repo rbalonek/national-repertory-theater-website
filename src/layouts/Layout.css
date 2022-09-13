@@ -8,6 +8,7 @@ align-items: center;
 .layout-holder{
   width: 100%;
   max-width: 1200px;
-  /* background-color: blue; */
+  background-color: #F4F0DB;
+  min-height: 100vh;
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import DonateButton from '../../components/Buttons/DonateButton/DonateButton'
 import "./Contact.css"
 
 export default function Contact() {
@@ -6,7 +7,8 @@ export default function Contact() {
     <div>
     <h1>
     Contact
-  </h1>
+      </h1>
+      <DonateButton />
     </div>
   )
 }

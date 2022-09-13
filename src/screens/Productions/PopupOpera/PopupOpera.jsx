@@ -2,6 +2,7 @@ import React from 'react'
 import "./PopupOpera.css"
 
 import PopupOperaImg from "../../../assets/projects/PopupWide.png"
+import DonateButton from '../../../components/Buttons/DonateButton/DonateButton'
 
 export default function PopupOpera() {
   return (
@@ -18,7 +19,7 @@ export default function PopupOpera() {
         To donate specifically to the Popup Opera project, click the link
         below:
       </p>
-      <h1>DONATE BUTTON</h1>
+      <DonateButton />
       <p className="global-text">
         {" "}
         If you have an idea, performance space or any other questions about

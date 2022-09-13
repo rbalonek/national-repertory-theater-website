@@ -42,7 +42,9 @@ a:active {
   position: absolute;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #F4F0DB;
+  border: 1px solid black;
+  /* background-color: white; */
 }
 .nav__productions-dropdown-open a:link{
   text-decoration:none;
