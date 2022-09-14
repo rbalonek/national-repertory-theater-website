@@ -1,8 +1,9 @@
 import React from 'react'
 import "./Outreach.css"
 import DonateButton from "../../../components/Buttons/DonateButton/DonateButton"
-
 import OperaForTheAges from "../../../assets/projects/OperaForTheAges.png"
+
+import ContactForm from "../../../components/Forms/ContactForm/ContactForm"
 
 export default function Outreach() {
   return (
@@ -27,14 +28,17 @@ export default function Outreach() {
           To donate directly to the advancement of "Opera for the Ages" click
           the link below:
         </p>
+        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
         <DonateButton />
-
+</div>
         <br />
         <p className="global-text">
           And if you have any questions, or would like to add your school to our
           list, please email us here:
         </p>
-        <p>OUTREACH FORM</p>
+        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+        <ContactForm title="Contact Us" value="General" />
+        </div>
       </div>
     </div>
   )

@@ -1,6 +1,24 @@
 .mailer-contact__container{
-
+  width: 350px;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 2%;
+  /* text-align: center; */
+  box-shadow: 12px 12px 8px rgb(0 0 0 / 30%);
+  background-color: black;
+  color: white;
 }
 .mailer-contact__form{
-  
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  /* padding: 5px; */
+}
+.mailer-contact__submit-btn{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  font-size: large;
+  border: none;
+  cursor: pointer;
 }

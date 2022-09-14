@@ -2,5 +2,6 @@
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
-  height: 120vh;
+  min-height: 120vh;
+  padding-bottom: 50px;
 }

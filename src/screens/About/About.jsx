@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactForm from '../../components/Forms/ContactForm/ContactForm'
 import "./About.css"
 
 export default function About() {
@@ -24,6 +25,9 @@ export default function About() {
           For more information, send us a message or join our mailing list for
           updates!
         </p>
+      </div>
+      <div style={{width:'100%', display:'flex', justifyContent:'center'}}>
+      <ContactForm title="Contact Us" Value="General" />
       </div>
     </div>
   )

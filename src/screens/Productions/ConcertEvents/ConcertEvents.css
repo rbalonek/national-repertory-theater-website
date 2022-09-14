@@ -1,3 +1,18 @@
+.concert__container{
+font-size: large;
+}
 .conert__banner-img{
   width: 100%;
+}
+.concert__event-holder{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.concert__events{
+  text-align: center;
+  background-color: white;
+  width: 300px;
+  border-radius: 3%;
+  box-shadow: 12px 12px 80px rgb(0 0 0 / 25%);
 }

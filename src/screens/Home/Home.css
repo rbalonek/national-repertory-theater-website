@@ -1,3 +1,14 @@
 .home-container {
+  padding: 10px;
 }
 
+.home__banner{
+  /* width: 100%; */
+}
+.home__cello{
+  height: 200px;
+}
+.home__text-img{
+  display: flex;
+  align-items: center;
+}

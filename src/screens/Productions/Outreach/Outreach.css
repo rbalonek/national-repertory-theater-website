@@ -1,7 +1,8 @@
 .outreach-container {
   /* min-height: 100vh; */
   /* margin-bottom: 100px; */
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 20px;
 }
 .kids-opera-banner-img-container {
   padding-top: 2%;

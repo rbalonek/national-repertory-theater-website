@@ -1,0 +1,25 @@
+.footer__container{
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  color:white;
+  margin-top: 50px;
+}
+.footer__links-holder{
+  display: flex;
+  /* width: 250px; */
+  width: 100%;
+  justify-content: space-around;
+}
+.footer__bottom-text{
+  width: 100%;
+  text-align: center;
+  font-size: x-small;
+}
+.footer__neck-img-holder{
+ position: relative;
+ top: 50px;
+}
+.footer__neck-img{
+  height: 100px;
+}

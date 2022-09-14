@@ -1,3 +1,8 @@
+.popup-opera__container{
+  margin: 10px;
+  margin-bottom: 50px;
+}
+
 .popup-text-container {
   position: absolute;
   top: 42vh;
