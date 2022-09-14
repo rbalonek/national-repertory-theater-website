@@ -19,9 +19,9 @@ export default function Home() {
           <MailerSignupForm />
           </div>
         </div>
-      <img className='home__banner' src={ViolinPopout} />
+      <img alt="violin" className='home__banner' src={ViolinPopout} />
       </div>
-      <img className='home__cello' src={CelloPopout} />
+      <img alt="Cello" className='home__cello' src={CelloPopout} />
       
       <p style={{paddingLeft:'40px',paddingRight:'40px', fontSize:'20px'}}>The National Repertory Theater Is A Non-Profit Organization Under The 501(C)(3) Internal Revenue Service Filing.</p>
       <p style={{paddingLeft:'40px',paddingRight:'40px', fontSize:'20px'}}>For more information, send us a message or join our mailing list for updates!</p>
