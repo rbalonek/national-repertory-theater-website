@@ -26,7 +26,7 @@ export default function About() {
           updates!
         </p>
       </div>
-      <div style={{width:'100%', display:'flex', justifyContent:'center'}}>
+      <div className='about__contact-holder'>
       <ContactForm title="Contact Us" Value="General" />
       </div>
     </div>

@@ -10,12 +10,9 @@
 
 .mailer-signup__form{
   display: flex;
-  /* justify-content: space-between; */
-  /* flex-direction: column; */
-  /* height: 150px;
+}
+.mailer-signup__email-input{
   width: 200px;
-  
-  align-items: center; */
 }
 .mailer-signup__submit-btn{
  background-color: black;
@@ -24,4 +21,22 @@
   padding: 7px;
   cursor: pointer;
   font-size: medium;
+}
+
+@media (max-width: 800px){
+  .mailer-signup__container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+    width: 300px;
+  }
+  .mailer-signup__email-input{
+    width: 293px;
+    height: 25px;
+  }
+  .mailer-signup__form{
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -22,3 +22,9 @@
   border: none;
   cursor: pointer;
 }
+
+@media (max-width: 800px){
+  .mailer-contact__container{
+    width: 300px;
+  }
+}

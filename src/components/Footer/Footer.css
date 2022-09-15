@@ -1,3 +1,23 @@
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
 .footer__container{
   height: 200px;
   width: 100%;
@@ -22,4 +42,13 @@
 }
 .footer__neck-img{
   height: 100px;
+}
+
+@media (max-width: 800px){
+  .footer__bottom-text{
+    width: 95%;
+    font-size: 7px;
+    padding-left: 2%;
+  }
+  
 }
